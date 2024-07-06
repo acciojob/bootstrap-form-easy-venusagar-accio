@@ -1,16 +1,44 @@
 <!DOCTYPE html>
-
 <html>
-
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
-</body>
-
+    <head>
+        <title>internship form</title>
+    </head>
+    <body>
+		<h1 style="text-align: center;">Internship Form</h1>
+        <div style="display: flex;">
+        <div>
+        <p>First Name</p>
+        <input type="text" required>
+        </div>
+        <div style="padding-left: 30px;">
+        <p>Last name</p>
+        <input type="text" required>
+        </div>
+        <div style="padding-left: 30px;">
+        <p>Email Address</p>
+        <input type="email"  required placeholder="xyz@abc.com">
+        </div>
+        <div style="padding-left: 30px;">
+            <p>College</p>
+            <input type="text" required>
+        </div>
+        <div style="padding-left: 30px;">
+            <p>Graduation Year</p>
+            <select required>
+                <option>2020</option>
+                <option>2021</option>
+                <option>2022</option>
+                <option>2023</option>
+            </select>
+        </div>
+        <div style="padding-left: 30px;">
+            <p>Roll NO</p>
+            <input type="text" required>
+        </div>
+        </div>
+        <input type="checkbox" required>
+        <div>
+        <input type="submit" value="Submit Form">
+        </div>
+    </body>
 </html>
