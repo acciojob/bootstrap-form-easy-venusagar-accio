@@ -11,34 +11,49 @@
         <div>
         <label for="first-name-input">First Name</label>
         <input id="first-name-input" type="text" required>
-			<div class="invalid-">
+			<div class="invalid-feedback">
 				first name required
 			</div>
         </div>
         <div style="padding-left: 30px;">
-        <p>Last name</p>
+        <label for="last-name-input">Last name</label>
         <input id="last-name-input" type="text" required>
+			<div class="invalid-feedback">
+				last name required
+			</div>
         </div>
         <div style="padding-left: 30px;">
-        <p>Email Address</p>
+        <label for="email-input">Email Address</label>
         <input id="email-input" type="email"  required placeholder="xyz@abc.com">
+			<div class="invalid-feedback">
+				email required
+			</div>
         </div>
         <div style="padding-left: 30px;">
-            <p>College</p>
+            <label for="college-input">College</label>
             <input id="college-input" type="text" required>
+			<div class="invalid-feedback">
+				college name required
+			</div>
         </div>
         <div style="padding-left: 30px;">
-            <p>Graduation Year</p>
+            <label>Graduation Year</label>
             <select required>
                 <option>2020</option>
                 <option>2021</option>
                 <option>2022</option>
                 <option>2023</option>
             </select>
+			<div class="invalid-feedback">
+				please select a valid graduation year
+			</div>
         </div>
         <div style="padding-left: 30px;">
-            <p>Roll NO</p>
+            <label for="roll-no-input">Roll NO</label>
             <input id="roll-no-input" type="text" required>
+			<div class="invalid-feedback">
+				roll no required
+			</div>
         </div>
         </div>
         <input id="conditions-checkbox" type="checkbox" required>
